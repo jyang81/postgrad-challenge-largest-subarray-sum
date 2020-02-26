@@ -1,6 +1,6 @@
-// let array = [1, -1, 5, 3, -7, 4, 5, 6, -100, 4] // 16
-// let array2 = [-3, 1, 100, 4, 15, 9, 30] // 159
-// let array3 = [2, 1, -3, 4, -1, 2, 1, -5, 4] // 6
+// let array = [1, -1, 5, 3, -7, 4, 5, 6, -100, 4]
+
+// Run time is O(n) where n is the size of the array. I don't think it can run faster than this, as it iterates through the array one time, while keeping track of the maximum value as it goes. You can't find the answer without going through the entire array. #dynamicprogramming
 
 function largestSubarraySum(array) {
     let currentSum = 0;
@@ -25,11 +25,6 @@ function largestSubarraySum(array) {
 }
 
 // largestSubarraySum(array)
-// console.log("----------------")
-// largestSubarraySum(array2)
-// console.log("----------------")
-// largestSubarraySum(array3)
-// console.log("----------------")
 
 
 
